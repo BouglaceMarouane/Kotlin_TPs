@@ -8,5 +8,4 @@ fun main() {
     age = 19
 
     println(" Je m'appelle $nom et j'ai $age ans.\n")
-
 }
