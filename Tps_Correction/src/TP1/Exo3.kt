@@ -8,5 +8,4 @@ fun main() {
     } else {
         println("impair")
     }
-
 }
