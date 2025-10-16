@@ -7,11 +7,7 @@ fun main() {
    check(success)
     check(failure)
      check(loading)
-
-
-
 }
-
 
 sealed class OperationResult(val type: String) {
     abstract fun afficher_details()
@@ -37,9 +33,4 @@ fun check(operationResult: OperationResult) {
         is Failure ->  operationResult.afficher_details()
         is Loading -> operationResult.afficher_details()
     }
-
 }
-
-
-
-
